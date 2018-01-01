@@ -1,0 +1,35 @@
+/*html,
+body {
+    height: 100%;
+}*/
+
+body {
+    background: url("../img/bg.jpg");
+}
+
+.container {
+    width: 8.0625rem;
+    perspective: 25rem;
+    margin: 0 auto;
+}
+
+.container-box {
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective-origin: 50% 50%;
+    height: 100%
+}
+
+.container-box>div {
+    position: absolute;
+    width: 8.0625rem;
+    height: 73.125rem;
+}
+
+.music-controller {
+    text-align: right;
+    position: absolute;
+    right: 1rem;
+    z-index: 999
+}
